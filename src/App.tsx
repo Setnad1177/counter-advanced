@@ -55,7 +55,7 @@ function App() {
                     value={maxValue}
                     onChange={(e) => setMaxValue(+e.target.value)}
                 />
-                <label>Start value:</label>
+                <label><br/>Start value:</label>
                 <input
                     type="number"
                     value={startValue}
